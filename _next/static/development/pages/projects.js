@@ -177,7 +177,7 @@ module.exports = JSON.parse("{\"colors\":{\"backgroundDark\":\"#000000\",\"backg
 /*! exports provided: languages, frameworks, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"languages\":{\"HTML\":{\"img\":\"HTML.png\",\"displayName\":\"HTML\"},\"CSS\":{\"img\":\"CSS.png\",\"displayName\":\"CSS\"},\"JS\":{\"img\":\"JS.png\",\"displayName\":\"JavaScript\"},\"C#\":{\"img\":\"CSharp.png\",\"displayName\":\"C#\"}},\"frameworks\":{\"Unity\":{\"img\":\"Unity.png\",\"displayName\":\"Unity\"},\"p5\":{\"img\":\"p5.png\",\"displayName\":\"p5.js\"},\"React\":{\"img\":\"React.png\",\"displayName\":\"React\"},\"NodeJS\":{\"img\":\"NodeJS.png\",\"displayName\":\"Node.js\"}}}");
+module.exports = JSON.parse("{\"languages\":{\"HTML\":{\"img\":\"HTML.png\",\"displayName\":\"HTML\"},\"CSS\":{\"img\":\"CSS.png\",\"displayName\":\"CSS\"},\"JS\":{\"img\":\"JS.png\",\"displayName\":\"JavaScript\"},\"C#\":{\"img\":\"CSharp.png\",\"displayName\":\"C#\"},\"Python\":{\"img\":\"Python.png\",\"displayName\":\"Python\"}},\"frameworks\":{\"Unity\":{\"img\":\"Unity.png\",\"displayName\":\"Unity\"},\"p5\":{\"img\":\"p5.png\",\"displayName\":\"p5.js\"},\"React\":{\"img\":\"React.png\",\"displayName\":\"React\"},\"NodeJS\":{\"img\":\"NodeJS.png\",\"displayName\":\"Node.js\"}}}");
 
 /***/ }),
 
@@ -185,10 +185,10 @@ module.exports = JSON.parse("{\"languages\":{\"HTML\":{\"img\":\"HTML.png\",\"di
 /*!****************************!*\
   !*** ./data/projects.json ***!
   \****************************/
-/*! exports provided: 0, 1, 2, 3, default */
+/*! exports provided: 0, 1, 2, 3, 4, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"title\":\"Satellite\",\"desc\":\"A mobile game I made with Unity and published to the Apple App Store.\",\"img\":\"Satellite.png\",\"demo\":\"https://apps.apple.com/us/app/satellite-gravity-game/id1447827395\",\"source\":\"\",\"languages\":[\"C#\"],\"frameworks\":[\"Unity\"]},{\"title\":\"2D Raycasting Demo\",\"desc\":\"A 2D light simulation that optimizes raycasting by using the minimum number of rays possible.\",\"img\":\"2DRaycasting.png\",\"demo\":\"/static/code/2DRaycasting/index.html\",\"source\":\"https://editor.p5js.org/mmftl/sketches/6QIxezFS3\",\"languages\":[\"HTML\",\"JS\"],\"frameworks\":[\"p5\"]},{\"title\":\"Company Website\",\"desc\":\"I made a company website for Cuneiform Offshore Consulting, LLC.\",\"img\":\"Cuneiform.png\",\"demo\":\"http://www.cuneiform-offshore.com/\",\"source\":\"\",\"languages\":[\"HTML\",\"CSS\",\"JS\"],\"frameworks\":[]},{\"title\":\"This Website\",\"desc\":\"I made this website to both learn React and make a little portfolio.\",\"img\":\"MyWebsite.png\",\"demo\":\"/\",\"source\":\"\",\"languages\":[\"HTML\",\"CSS\",\"JS\"],\"frameworks\":[\"React\",\"NodeJS\"]}]");
+module.exports = JSON.parse("[{\"title\":\"Satellite\",\"desc\":\"A mobile game I made with Unity and published to the Apple App Store.\",\"img\":\"Satellite.png\",\"demo\":\"https://apps.apple.com/us/app/satellite-gravity-game/id1447827395\",\"source\":\"\",\"languages\":[\"C#\"],\"frameworks\":[\"Unity\"]},{\"title\":\"CSV Query\",\"desc\":\"I was the main code contributor of CSV Query: a versatile Python package that allows you to interact with CSV files like SQL tables and execute MongoDB-style queries on them.\",\"img\":\"csvquery.png\",\"demo\":\"https://pypi.org/project/csvquery/\",\"source\":\"https://github.com/matt-mekha/csvquery\",\"languages\":[\"Python\"],\"frameworks\":[]},{\"title\":\"Company Website\",\"desc\":\"I made a company website for Cuneiform Offshore Consulting, LLC.\",\"img\":\"Cuneiform.png\",\"demo\":\"http://www.cuneiform-offshore.com/\",\"source\":\"\",\"languages\":[\"HTML\",\"CSS\",\"JS\"],\"frameworks\":[]},{\"title\":\"2D Raycasting Demo\",\"desc\":\"A 2D light simulation that optimizes raycasting by using the minimum number of rays possible.\",\"img\":\"2DRaycasting.png\",\"demo\":\"/static/code/2DRaycasting/index.html\",\"source\":\"https://editor.p5js.org/mmftl/sketches/6QIxezFS3\",\"languages\":[\"HTML\",\"JS\"],\"frameworks\":[\"p5\"]},{\"title\":\"This Website\",\"desc\":\"I made this website to both learn React and make a little portfolio.\",\"img\":\"MyWebsite.png\",\"demo\":\"/\",\"source\":\"\",\"languages\":[\"HTML\",\"CSS\",\"JS\"],\"frameworks\":[\"React\",\"NodeJS\"]}]");
 
 /***/ }),
 
@@ -4998,7 +4998,7 @@ var Projects = function Projects() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*****************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprojects&absolutePagePath=C%3A%5CUsers%5Cmattm%5CDesktop%5CCoding%5CProjects%5Creact-website%5Cpages%5Cprojects.js ***!
   \*****************************************************************************************************************************************************************/
@@ -5021,5 +5021,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=projects.js.map

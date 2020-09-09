@@ -185,10 +185,10 @@ module.exports = JSON.parse("{\"languages\":{\"HTML\":{\"img\":\"HTML.png\",\"di
 /*!****************************!*\
   !*** ./data/projects.json ***!
   \****************************/
-/*! exports provided: 0, 1, 2, 3, 4, default */
+/*! exports provided: 0, 1, 2, 3, 4, 5, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"title\":\"Satellite\",\"desc\":\"A mobile game I made with Unity and published to the Apple App Store.\",\"img\":\"Satellite.png\",\"demo\":\"https://apps.apple.com/us/app/satellite-gravity-game/id1447827395\",\"source\":\"\",\"languages\":[\"C#\"],\"frameworks\":[\"Unity\"]},{\"title\":\"CSV Query\",\"desc\":\"I was the main code contributor of CSV Query: a versatile Python package that allows you to interact with CSV files like SQL tables and execute MongoDB-style queries on them.\",\"img\":\"csvquery.png\",\"demo\":\"https://pypi.org/project/csvquery/\",\"source\":\"https://github.com/matt-mekha/csvquery\",\"languages\":[\"Python\"],\"frameworks\":[]},{\"title\":\"Company Website\",\"desc\":\"I made a company website for Cuneiform Offshore Consulting, LLC.\",\"img\":\"Cuneiform.png\",\"demo\":\"http://www.cuneiform-offshore.com/\",\"source\":\"\",\"languages\":[\"HTML\",\"CSS\",\"JS\"],\"frameworks\":[]},{\"title\":\"2D Raycasting Demo\",\"desc\":\"A 2D light simulation that optimizes raycasting by using the minimum number of rays possible.\",\"img\":\"2DRaycasting.png\",\"demo\":\"/static/code/2DRaycasting/index.html\",\"source\":\"https://editor.p5js.org/mmftl/sketches/6QIxezFS3\",\"languages\":[\"HTML\",\"JS\"],\"frameworks\":[\"p5\"]},{\"title\":\"This Website\",\"desc\":\"I made this website to both learn React and make a little portfolio.\",\"img\":\"MyWebsite.png\",\"demo\":\"/\",\"source\":\"\",\"languages\":[\"HTML\",\"CSS\",\"JS\"],\"frameworks\":[\"React\",\"NodeJS\"]}]");
+module.exports = JSON.parse("[{\"title\":\"Satellite\",\"desc\":\"A mobile game I made with Unity and published to the Apple App Store.\",\"img\":\"Satellite.png\",\"demo\":\"https://apps.apple.com/us/app/satellite-gravity-game/id1447827395\",\"source\":\"\",\"languages\":[\"C#\"],\"frameworks\":[\"Unity\"]},{\"title\":\"Minesweeper\",\"desc\":\"A modern rendition of Minesweeper I made with Unity.\",\"img\":\"Minesweeper.png\",\"demo\":\"/static/code/Minesweeper/index.html\",\"source\":\"https://github.com/matt-mekha/Minesweeper\",\"languages\":[\"C#\"],\"frameworks\":[\"Unity\"]},{\"title\":\"CSV Query\",\"desc\":\"I was the main code contributor of CSV Query: a versatile Python package that allows you to interact with CSV files like SQL tables and execute MongoDB-style queries on them.\",\"img\":\"csvquery.png\",\"demo\":\"https://pypi.org/project/csvquery/\",\"source\":\"https://github.com/matt-mekha/csvquery\",\"languages\":[\"Python\"],\"frameworks\":[]},{\"title\":\"Company Website\",\"desc\":\"I made a company website for Cuneiform Offshore Consulting, LLC.\",\"img\":\"Cuneiform.png\",\"demo\":\"http://www.cuneiform-offshore.com/\",\"source\":\"\",\"languages\":[\"HTML\",\"CSS\",\"JS\"],\"frameworks\":[]},{\"title\":\"2D Raycasting Demo\",\"desc\":\"A 2D light simulation that optimizes raycasting by using the minimum number of rays possible.\",\"img\":\"2DRaycasting.png\",\"demo\":\"/static/code/2DRaycasting/index.html\",\"source\":\"https://editor.p5js.org/mmftl/sketches/6QIxezFS3\",\"languages\":[\"HTML\",\"JS\"],\"frameworks\":[\"p5\"]},{\"title\":\"This Website\",\"desc\":\"I made this website to both learn React and make a little portfolio.\",\"img\":\"MyWebsite.png\",\"demo\":\"/\",\"source\":\"\",\"languages\":[\"HTML\",\"CSS\",\"JS\"],\"frameworks\":[\"React\",\"NodeJS\"]}]");
 
 /***/ }),
 
@@ -3963,12 +3963,12 @@ process.umask = function() { return 0; };
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_7aff549c98b978433226 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_829b10deddf10e1653a8 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_829b10deddf10e1653a8 */ "dll-reference dll_829b10deddf10e1653a8"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -4998,7 +4998,7 @@ var Projects = function Projects() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*****************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprojects&absolutePagePath=C%3A%5CUsers%5Cmattm%5CDesktop%5CCoding%5CProjects%5Creact-website%5Cpages%5Cprojects.js ***!
   \*****************************************************************************************************************************************************************/
@@ -5010,16 +5010,16 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fprojec
 
 /***/ }),
 
-/***/ "dll-reference dll_7aff549c98b978433226":
+/***/ "dll-reference dll_829b10deddf10e1653a8":
 /*!*******************************************!*\
-  !*** external "dll_7aff549c98b978433226" ***!
+  !*** external "dll_829b10deddf10e1653a8" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_7aff549c98b978433226;
+module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=projects.js.map
